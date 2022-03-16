@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">ShoeStore</string>
+    <string name="app_name">Shoe Store</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="logo">logo</string>
+    <string name="next">Next</string>
+    <string name="customize_your_shoes">customize your shoes</string>
+    <string name="welcome_description">This is a shoe store\nWhere you can customize your shoes</string>
+    <string name="welcome">Welcome</string>
+    <string name="desc">Next, you will see a list of shoes\nTo add a custom shoe, fill in the following fields: name, size, company, description, image. Then press add button</string>
+    <string name="get_started">Get started</string>
+    <string name="name">Name</string>
+    <string name="company">Company</string>
+    <string name="description">Description</string>
+    <string name="size">Size</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="required_field">This field is required</string>
+    <string name="all_shoes">All Shoes</string>
+    <string name="add">add</string>
+    <string name="add_new_shoe">Add new shoe</string>
+    <string name="logout">Logout</string>
 </resources>

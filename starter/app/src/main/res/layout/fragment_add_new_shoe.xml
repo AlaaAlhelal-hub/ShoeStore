@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".views.AddNewShoeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorSecondary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/miduem_margin"
+            android:layout_marginEnd="@dimen/miduem_margin"
+            android:layout_marginStart="@dimen/miduem_margin"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/miduem_margin"
+                    android:text="@string/name"
+                    style="@style/TextLabel" />
+
+                <EditText
+                    android:id="@+id/name_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:importantForAutofill="no" />
+
+                <TextView
+                    android:id="@+id/size_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/miduem_margin"
+                    android:text="@string/size"
+                    style="@style/TextLabel" />
+
+                <EditText
+                    android:id="@+id/size_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:importantForAutofill="no"
+                    android:inputType="numberDecimal"
+                    android:maxLines="1" />
+
+                <TextView
+                    android:id="@+id/company_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/miduem_margin"
+                    android:text="@string/company"
+                    style="@style/TextLabel" />
+
+                <EditText
+                    android:id="@+id/company_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:importantForAutofill="no" />
+
+                <TextView
+                    android:id="@+id/description_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/miduem_margin"
+                    android:text="@string/description"
+                    style="@style/TextLabel" />
+
+                <EditText
+                    android:id="@+id/description_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/small_margin"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:importantForAutofill="no" />
+
+                <Button
+                    android:id="@+id/save_button"
+                    style="@style/PrimaryButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/extra_large_margin"
+                    android:text="@string/save"/>
+
+                <Button
+                    android:id="@+id/cancel_button"
+                    style="@style/SecondaryButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/miduem_margin"
+                    android:layout_marginBottom="@dimen/large_margin"
+                    android:text="@string/cancel"/>
+        </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.InstructionsFragment">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/shoe_icon"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/ic_shoe"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/find_shoes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/customize_your_shoes"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginEnd="@dimen/miduem_margin"
+            android:layout_marginStart="@dimen/miduem_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/shoe_icon"
+            style="@style/TextAppearance.AppCompat.Body1.Large"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/desc"
+            android:layout_marginTop="@dimen/miduem_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:layout_marginStart="@dimen/large_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/find_shoes"
+            style="@style/TextAppearance.AppCompat.Body1.Small"/>
+
+        <Button
+            android:id="@+id/button"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/large_margin"
+            android:layout_marginTop="@dimen/miduem_margin"
+            android:layout_marginEnd="@dimen/large_margin"
+            android:text="@string/get_started"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
